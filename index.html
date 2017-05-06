@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>CrappyBarGraph</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+    <div class="table-container">
+    <table id="count-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td contenteditable='true'>Cat</td>
+          <td contenteditable='true'>2</td>
+        </tr>
+        <tr>
+          <td contenteditable='true'>Hat</td>
+          <td contenteditable='true'>3</td>
+        </tr>
+        <tr>
+          <td contenteditable='true'>Bat</td>
+          <td contenteditable='true'>4</td>
+        </tr>
+        <tr>
+          <td contenteditable='true'>Nat</td>
+          <td contenteditable='true'>8</td>
+        </tr>
+        <tr>
+          <td contenteditable='true'>Fat</td>
+          <td contenteditable='true'>12</td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="main-button" onclick="drawBars()">Go</div>
+  </div>
+
+  <div class="graph-container">
+    <div class="graph-header">
+    </div>
+    <div class="graph-body" id="graph1">
+    </div>
+  </div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
